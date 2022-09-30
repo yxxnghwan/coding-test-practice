@@ -101,7 +101,6 @@ public class BaekJoon1926 {
     static class Point {
         private final int x;
         private final int y;
-        private boolean visited;
 
         public Point(final int x, final int y) {
             this.x = x;
@@ -114,14 +113,6 @@ public class BaekJoon1926 {
 
         public int getY() {
             return y;
-        }
-
-        public boolean isVisited() {
-            return visited;
-        }
-
-        public void setVisited(final boolean visited) {
-            this.visited = visited;
         }
 
         @Override
