@@ -22,7 +22,7 @@ public class BaekJoon7569 {
     private static int[][][] graph;
     private static int[][][] dist;
     private static boolean[][][] visited;
-    private static Deque<int[]> queue = new ArrayDeque<>();
+    private static final Deque<int[]> queue = new ArrayDeque<>();
 
     public static void main(String[] args) throws IOException {
         final StringTokenizer stringTokenizer = new StringTokenizer(br.readLine());
