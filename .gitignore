@@ -1,6 +1,6 @@
 # Default ignored files
 /.idea
-java-coding-test-practice.iml
+*.iml
 /out
 # Default ignored files
 /shelf/
